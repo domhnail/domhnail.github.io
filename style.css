@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(42, 34, 47);
+  color: aliceblue;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+  nav {
+    padding: 1px;
+    text-align: left;
+    background-color: rgba(41, 33, 46, 0.5);
+  }
+  nav ul {
+    list-style-type: none;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .navIcon {
+    max-width: 33px;
+  }
+  header {
+    padding: 20px;
+    text-align: left;
+    background-color: rgb(42, 34, 47);
+  } 
+  .about{
+    background-color: rgb(76, 61, 85);
+    border-left: 2px solid #9fe1f8;
+    border-top: 2px solid #9fe1f8;
+    padding: 20px;
+    margin: 20px;
+  }
+  .displaySection {
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio {
+    width: fit-content;
+  }
+  .project {
+    display: inline-block;
+    width: fit-content;
+    background-color: #7596c3;
+    border-left: 2px solid #9fe1f8;
+    border-top: 2px solid #9fe1f8;
+    padding: 20px;
+    margin: 20px;
+  }
+  .portSquare {
+    max-width: 200px;
+    height: 200px;
+  }
+  main h2{
+    text-align: center;
+  }
+  .projectHeader {
+    border-top: 2px solid #9fe1f8;
+  }
+  .tldrProject {
+    display: flex;
+    width: fit-content;
+  }
+  .column {
+    flex: 50%;
+    width: fit-content;
+    padding: 30px;
+    text-align: justify;
+    background-color: #6e587b;
+    border-right: 2px solid #9fe1f8;
+    border-bottom: 2px solid #9fe1f8;
+    padding: 20px;
+    margin: 20px;
+  }
+  .tldrSquare {
+    max-width: 500px;
+    padding: 30px;
+  }
+  footer {
+    background-color: rgba(41, 33, 46, 0.5);
+    border-top: 2px solid #9fe1f8;
+    padding: 20px;
+    margin: 0 0 0 0;
+  }
