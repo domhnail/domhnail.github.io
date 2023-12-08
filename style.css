@@ -11,20 +11,19 @@ body {
     text-align: left;
     background-color: rgba(41, 33, 46, 0.5);
   }
-  nav ul {
+  ul.nav {
     list-style-type: none;
+    text-align: left;
   }
   nav li {
-    display: inline-block;
-    margin-right: 5px;
+    display:contents;
   }
   .navIcon {
-    max-width: 33px;
+    max-width: 27px;
   }
   header {
     padding: 20px;
     text-align: left;
-    background-color: rgb(42, 34, 47);
   } 
   .about{
     background-color: rgb(76, 61, 85);
@@ -79,7 +78,6 @@ body {
     padding: 30px;
   }
   footer {
-    background-color: rgba(41, 33, 46, 0.5);
     border-top: 2px solid #9fe1f8;
     padding: 20px;
     margin: 0 0 0 0;
