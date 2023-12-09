@@ -3,48 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="scripts.js"></script>
+  <script src="scripts.js" defer></script>
   <link rel="stylesheet" href="style.css">
   <title>Portfolio</title>
 </head>
 <body>
-  <nav>
   <header id="top">
-    
-    <h2>Cole Dan O'Donnell</h2>
-    
+    <h2>Cole Dan O'Donnell</h2> <a href="https://github.com/domhnail"><img class="navIcon" src="images/github-mark-white.png"></a> 
+  </header>
+
+  <nav>
     <ul class="nav">
-      <a href="https://github.com/domhnail"><img class="navIcon" src="images/github-mark-white.png"></a>
-      <li>About Me</li>
-      <li>Portfolio</li>
-      <li>Cause</li>
+      <li>About Me</li> \\
+      <li>Portfolio</li> \\
+      <li>Cause</li> \\
     </ul>
   </nav>
     
-  </header>
-
   <main>
   <div class="displaySection">
     <div class="portfolio">
-      <div class="project" id="home">
-        <h2>Home Repo</h2>
-        <img class="portSquare" src="/images/cat.jpg">
+      <div class="project">
+        <h2>Nagai Aesthetic</h2>
+        <img class="portSquare" src="/images/nagai.png" alt="A one page site I styled with 80's and 90's Japanese magazine ads in mind.">
       </div>
-      <div class="project" id="country">
-        <h2>Country Flag Site</h2>
-        <img class="portSquare" src="/images/owl.jpg">
+      <div class="project">
+        <h2>Programming Final</h2>
+        <img class="portSquare" src="/images/owl.jpg" alt="My final assignment for my first term Programming class, makes use of basic client-side scripting.">
       </div>
-      <div class="project" id="sample">
-        <h2>Sample</h2>
-        <img class="portSquare" src="/images/rabbit.png">
+      <div class="project">
+        <h2>.hacker Look</h2>
+        <img class="portSquare" src="/images/rabbit.png" alt="Another one page site, this one I styled with inspiration from old forums and the '92 film Sneakers.">
       </div>
     </div>
   </div>
+
+  <div id="portModal" class="modal">
+    <span class="close">&times;</span>
+      <img class="modal-image" id="imgM" src="">
+    <div id="caption"></div>
+  </div>
   
-  </main>
+  
 
   <footer>
     &copy <a class= weblinks href = "mailto:coledanodonnell@hotmail.com">Cole O'Donnell</a> Developer. | 2023
   </footer>
+</main>
 </body>
 </html>
