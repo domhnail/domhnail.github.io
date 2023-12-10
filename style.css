@@ -23,6 +23,9 @@ body {
   font-size: larger;
   font-style: normal;
   font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
   .fader {
     animation-name: fadeR;
@@ -96,6 +99,9 @@ body {
   .githubButton {
     display: flex;
     align-items: center;
+  }
+  main {
+    flex: 1;
   }
   .displaySection {
     display: flex;
@@ -193,6 +199,7 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     border-top: 2px solid #9fe1f8;
     padding: 20px;
+    margin-top: auto;
   }
 
 
