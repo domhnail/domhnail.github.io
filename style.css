@@ -1,10 +1,28 @@
+@font-face {
+  font-family: "IBM_Plex_Mono";
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf) format("truetype");
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf) format("truetype");
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Italic.ttf) format("truetype");
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-BoldItalic.ttf) format("truetype");
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Thin.ttf) format("truetype");
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-ThinItalic.ttf) format("truetype");
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-ExtraLight.ttf) format("truetype");
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-ExtraLightItalic.ttf) format("truetype");
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Light.ttf) format("truetype");
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-LightItalic.ttf) format("truetype");
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Medium.ttf) format("truetype");
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-MediumItalic.ttf) format("truetype");
+}
+
 body {
   padding: 0;
   margin: 0;
   background-color: #0e0b10;
   color: aliceblue;
-  font-family:'Courier New', Courier, monospace;
+  font-family:"IBM_Plex_Mono";
   font-size: larger;
+  font-style: normal;
+  font-weight: lighter;
 }
   .fader {
     animation-name: fadeR;
@@ -54,17 +72,31 @@ body {
   .navIcon {
     max-width: 27px;
   }
+  .navIcon:hover {
+    background-color: #9fe1f8;
+    border-radius: 50px;
+  }
   header {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: lighter;
-    font-size: xx-large;
     padding: 10px 20px 10px 20px;
     max-width: fit-content;
     text-align: left;
     margin-bottom: 0;
     border-right: 2px solid #9fe1f8;
     border-bottom: 2px solid #9fe1f8;
-  } 
+  }
+  header h2 {
+    font-family: "IBM_Plex_Mono";
+    font-weight:bolder;
+    font-size: xx-large;
+    font-style:oblique;
+  }
+  header p {
+    margin-right: 20px;
+  }
+  .githubButton {
+    display: flex;
+    align-items: center;
+  }
   .displaySection {
     display: flex;
     justify-content: center;
