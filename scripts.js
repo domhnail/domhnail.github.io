@@ -1,11 +1,10 @@
 "use strict";
-let span = document.getElementsByClassName("close")[0]
+let span = document.getElementsByClassName("close")[0];
 
 function portSquarePop(portImg) { //function to display the modal
 let modal = document.getElementById('portModal'); //retrieving modal
 let modalSquare = document.getElementById('imgM'); //retrieving element for modal image
 let caption = document.getElementById('caption'); //retrieving caption element
-let navLinks = document.getElementsByClassName('navLinks');
 
 modal.style.display = 'block'; //displaying the modal
 modalSquare.src = portImg.src; //inserting the image
@@ -26,8 +25,4 @@ for (let i = 0; i < portSquares.length; i++) {
 } //event listener on images
 
 span.addEventListener('click',closeModal); //event listener on close button
-document.addEventListener('DOMContentLoaded', function() { //event listener to handle page fade
-  document.body.classList.remove('fader');
-});
-navLinks.addEventListener('click')
 

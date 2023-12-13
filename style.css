@@ -27,20 +27,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-  .fader {
-    animation-name: fadeR;
-    animation-duration: 0.4s;
-  }
-  @keyframes fadeR {
-    from {
-      opacity: 0;
-      transform: translateX(-30px);
-    }
-    from {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
   body:hover {
     cursor:default;
   }
@@ -74,10 +60,13 @@ body {
   }
   .navIcon {
     max-width: 27px;
+    
   }
   .navIcon:hover {
     background-color: #9fe1f8;
     border-radius: 50px;
+    border-style: solid;
+    border-color: #9fe1f8;
   }
   header {
     padding: 10px 20px 10px 20px;
@@ -88,7 +77,6 @@ body {
     border-bottom: 2px solid #9fe1f8;
   }
   header h2 {
-    font-family: "IBM_Plex_Mono";
     font-weight:bolder;
     font-size: xx-large;
     font-style:oblique;
@@ -106,7 +94,7 @@ body {
   .displaySection {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 60px 70px 60px 70px;
   }
   .portfolio {
     width: fit-content;
@@ -181,6 +169,36 @@ body {
     padding: 20px;
     margin: 20px;    
   }
+  .displayAbout {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+  }
+  .displayAbout h3 {
+    padding-left: 5px;
+    margin: 0;
+  }
+  .proDis {
+    display: inline-block;
+    width: 50%;
+    background-color: #0e0b10;
+    border-right: 1px solid #9fe1f8;
+    border-bottom: 1px solid #9fe1f8;
+    padding: 10px;
+    margin: 10px;
+  }
+  .perDis {
+    display: inline-block;
+    width: 50%;
+    background-color: #0e0b10;
+    border-left: 1px solid #9fe1f8;
+    border-bottom: 1px solid #9fe1f8;
+    padding: 10px;
+    margin: 10px;
+  }
+  .paraAbout {
+    padding-left: 5px;
+  }
   .projectLinks {
     color: aliceblue;
     text-decoration: none;
@@ -189,11 +207,13 @@ body {
     color: #9fe1f8;
   }
   .portSquare {
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
   }
   .portSquare:hover {
     cursor: pointer;
+    object-fit: contain;
   }
   footer {
     border-top: 2px solid #9fe1f8;
