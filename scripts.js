@@ -1,7 +1,15 @@
 "use strict";
-let span = document.getElementsByClassName("close")[0];
-let triggerVideo = document.getElementById("triggerModal");
-let modal = document.getElementById("portModal");
+let span = document.getElementsByClassName('close')[0];
+let triggerVideo = document.getElementById('triggerModal');
+let modal = document.getElementById('portModal');
+let toggleButton = document.getElementById('toggleButton')
+
+/*
+function toggleMode() {
+  let element = document.body;
+  element.classList.toggle('light');
+}
+*/
 
 function showVideoModal() {
   modal.style.display = "block";
@@ -13,7 +21,7 @@ let caption = document.getElementById('caption'); //retrieving caption element
 
 modal.style.display = 'block'; //displaying the modal
 modalSquare.src = portImg.src; //inserting the image
-caption.innerHTML  = portImg.alt //inserting the caption
+caption.innerHTML  = portImg.alt; //inserting the caption
 }
 
 function closeModal() { //function to close the modal
@@ -29,5 +37,6 @@ for (let i = 0; i < portSquares.length; i++) {
 } //event listener on images
 
 span.addEventListener('click',closeModal); //event listener on close button
-triggerVideo.addEventListener("click", showVideoModal); //event listener on "this", to show video
+triggerVideo.addEventListener('click', showVideoModal); //event listener on "this", to show video
 modal.addEventListener('click', closeModal); //event listener to close the modal when the user clicks on it.
+//toggleButton.addEventListener('click',toggleMode);
