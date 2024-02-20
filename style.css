@@ -103,10 +103,6 @@ body {
     border-style: solid;
     border-color: #9fe1f8;
   }
-  .githubButton {
-    display: flex;
-    align-items: center;
-  }
   main {
     flex: 1;
   }
