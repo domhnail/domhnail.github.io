@@ -1,69 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script src="scripts.js" defer></script>
-  <title>Portfolio</title>
-</head>
-<body>
-  <!--<button id="toggleButton" class="button">light mode</button>-->
-  <header>
-    <h2>Cole Dan O'Donnell</h2>
-      <div class="profileButtons">
-        <a href="https://github.com/domhnail"><img class="navIcon" src="images/github-mark-white.png"></a>
-        <a href="https://www.linkedin.com/in/cole-o-donnell-52922a223/"><img class="navIcon" src="images/In-White-128.png"></a>
-      </div>
-  </header>
-  <!--maybe add a sine wave to the the section beside the header.-->
-  <!--TODO lightmode, animated border rotating, some manually animated big clockwork in the background.-->
-  <nav>
-    <ul class="nav">
-      <a class="navLinks" href="index.html"><li>portfolio</li></a>
-      <a class="navLinks" href="about.html"><li>about me</li></a> 
-    </ul>
-  </nav>
-    
-  <main>
-  <div class="displaySection">
-    <div class="portfolio">
-      <div class="project">
-        <img class="portSquare" src="/images/CCN redesign.png" alt="A front-end redesign of the Chebucto Community Net website, made during my work term with them.">
-        <a class="projectLinks" href="https://github.com/domhnail/CCN-redesign"><h3>CCN redesign</h3></a>
-      </div>
-      <div class="projectFlip">
-        <img class="portSquare" src="/images/nagai.png" alt="A one page site I styled with 80's and 90's Japanese magazine ads in mind.">
-        <a class="projectLinks" href="https://github.com/domhnail/80-s-nagai-style-page"><h3>nagai aesthetic</h3></a>
-      </div>
-      <div class="project">
-        <a class="projectLinks" href="https://github.com/domhnail/prog-final-public"><h3>programming final</h3></a>
-        <img class="portSquare" src="/images/prog_final.png" alt="My final assignment for my first term Programming class, makes use of basic client-side scripting.">
-      </div>
-      <div class="projectFlip">
-        <img class="portSquare" src="/images/hacker.png" alt="Another one page site, I styled this one with inspiration from old forums and the '92 film Sneakers.">
-        <a class="projectLinks" href="https://github.com/domhnail/hacker-form"><h3>.hacker visual</h3></a>
-      </div>
-      <div class="project">
-        <a class="projectLinks" href="https://github.com/domhnail/home-repo-public"><h3>home repo</h3></a>
-        <img class="portSquare" src="/images/home repo.png" alt="A homepage I made for myself, opens by default on my browser.">
-      </div>
-    </div>
-  </div>
-
-  <div id="portModal" class="modal">
-    <span class="close">&times;</span>
-      <img class="modal-content" id="imgM" src="">
-    <div id="caption"></div>
-  </div>
-  
-  
-
-
-</main>
-
-<footer>
-  &copy <a class= weblinks href = "mailto:coledanodonnell@hotmail.com">Cole D. O'Donnell</a> | Developer | 2023
-</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>domhnail</title>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./src/index.css" rel="stylesheet">
+  </head>
+  <body class="main-colors">
+    <div  id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
