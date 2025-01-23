@@ -1,3 +1,4 @@
+import React from 'react'
 import  ImageCarousel  from "../ui/ImageCarousel";
 import { TypeAnimation } from 'react-type-animation';
 
