@@ -12,7 +12,7 @@ export default function Navbar() {
             width="100"
             height="100"
             className="img-fluid"
-            src="src/assets/test_icon.png"
+            src="/images/test_icon.png"
             alt="Logo"
           />
         </a>

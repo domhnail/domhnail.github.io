@@ -3,13 +3,13 @@ import  ImageCarousel  from "../ui/ImageCarousel";
 import { TypeAnimation } from 'react-type-animation';
 
 const images = [
-  { image: "/public/images/CCN redesign.png", title: "CCN Redesign Project", description:"A new front end for Chebucto Community Net I put together, using Bootstrap customized with SCSS, and JavaScript.", github: "https://github.com/domhnail/CCN-redesign"},
-  { image: "/public/images/cawfee.png", title: "Example storefront", description:"An example storefront I made to learn React, Prisma, SQLite and back end in general.", github: "https://github.com/domhnail/cawfee-api"},
-  { image: "/public/images/ecosystem_simulator.jpg", title:"Ecosystem Simulation", description:"An ecosystem simulation I wrote in C++, relies on classes and vectors. Fully polymorphic.", github: "https://github.com/domhnail/ecosystem_simulation"},
-  { image: "/public/images/animal_images.png", title: "Animal Image Hosting Site", description: "A site for hosting images of animals, done with React, Prisma and SQLite.", github:"https://github.com/domhnail/animal-image-api"},
-  { image: "/public/images/multi_threaded_chat.png", title: "Multi-Threaded Chat Application", description: "A chat application written in C#. Applied multi-threading for asynchronous chat functionality.", github:"https://github.com/domhnail/multi-threaded-chat-application"},
+  { image: "/images/CCN redesign.png", title: "CCN Redesign Project", description:"A new front end for Chebucto Community Net I put together, using Bootstrap customized with SCSS, and JavaScript.", github: "https://github.com/domhnail/CCN-redesign"},
+  { image: "/images/cawfee.png", title: "Example storefront", description:"An example storefront I made to learn React, Prisma, SQLite and back end in general.", github: "https://github.com/domhnail/cawfee-api"},
+  { image: "/images/ecosystem_simulator.jpg", title:"Ecosystem Simulation", description:"An ecosystem simulation I wrote in C++, relies on classes and vectors. Fully polymorphic.", github: "https://github.com/domhnail/ecosystem_simulation"},
+  { image: "/images/animal_images.png", title: "Animal Image Hosting Site", description: "A site for hosting images of animals, done with React, Prisma and SQLite.", github:"https://github.com/domhnail/animal-image-api"},
+  { image: "/images/multi_threaded_chat.png", title: "Multi-Threaded Chat Application", description: "A chat application written in C#. Applied multi-threading for asynchronous chat functionality.", github:"https://github.com/domhnail/multi-threaded-chat-application"},
   // TODO: uncomment this when full functionality of loadout rating and image retrieving is achieved.
-  // { image: "/public/images/loadout_value_checker.png", title: "Loadout Value Checker for Team Fortress 2", description: "An early project, scripted with JavaScript to manipulate the DOM. Leverages the backpack.tf, and the Steam API to calculate the ingame and monetary value of a users item loadout in the game, Team Fortress 2.", github:"https://github.com/domhnail/loadout-value-checker"}
+  // { image: "/images/loadout_value_checker.png", title: "Loadout Value Checker for Team Fortress 2", description: "An early project, scripted with JavaScript to manipulate the DOM. Leverages the backpack.tf, and the Steam API to calculate the ingame and monetary value of a users item loadout in the game, Team Fortress 2.", github:"https://github.com/domhnail/loadout-value-checker"}
 ]
 
 function Home() {
