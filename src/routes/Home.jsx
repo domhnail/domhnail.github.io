@@ -8,6 +8,7 @@ const images = [
   { image: "/images/ecosystem_simulator.jpg", title:"Ecosystem Simulation", description:"An ecosystem simulation I wrote in C++, relies on classes and vectors. Fully polymorphic.", github: "https://github.com/domhnail/ecosystem_simulation"},
   { image: "/images/animal_images.png", title: "Animal Image Hosting Site", description: "A site for hosting images of animals, done with React, Prisma and SQLite.", github:"https://github.com/domhnail/animal-image-api"},
   { image: "/images/multi_threaded_chat.png", title: "Multi-Threaded Chat Application", description: "A chat application written in C#. Applied multi-threading for asynchronous chat functionality.", github:"https://github.com/domhnail/multi-threaded-chat-application"},
+  {image: "/images/asp-net-forum.png", title: "ASP.NET Based Discussion Board", description: "A discussion forum made using ASP.NET.", github:"https://github.com/domhnail/LagomorphForum"}
   // TODO: uncomment this when full functionality of loadout rating and image retrieving is achieved.
   // { image: "/images/loadout_value_checker.png", title: "Loadout Value Checker for Team Fortress 2", description: "An early project, scripted with JavaScript to manipulate the DOM. Leverages the backpack.tf, and the Steam API to calculate the ingame and monetary value of a users item loadout in the game, Team Fortress 2.", github:"https://github.com/domhnail/loadout-value-checker"}
 ]
